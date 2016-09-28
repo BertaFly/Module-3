@@ -1,0 +1,120 @@
+body {
+	background-image: url('./bg-1600-1200.jpg');
+	font-family: 'Courgette', cursive;
+	font-size: 18px;
+	color: #070707;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+/** HEADER **/
+header {
+	width: 100%;
+}
+#header-nav {
+	background-color: #070707;
+  	opacity: 0.8;
+  	border-radius: 0;
+  	border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { /* Brand */
+  font-family: 'Courgette', cursive;
+  color: #ff8e00;
+  opacity: 1;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #faf6f1;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #d88f2e;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+ }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #d88f2e;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+#our-menu {
+	color: #d88f2e;
+	text-shadow: 0px 0.5px 0.5px #faf6f1;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-weight: bold;
+	background-color: #f2dcc1;
+	opacity: 0.8;
+	margin: 0;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: medium italic;
+	color: black;
+	text-align: left;
+	opacity: 0.8;
+	padding: 0px 10px 0px 10px;
+}
+.section {
+	background-color: #f2dcc1;
+	opacity: 0.8;
+    position: relative;
+    min-height: 200px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    min-width: 300px;
+    overflow: hidden;
+}        
+.row {
+    width: 100%;
+}
+/********** ExtraSmall devices only **********/
+@media (min-width: 768px) {
+ul {
+	display: none;
+}
+}
+/********** Vertical oriented devices **********/
+@media (min-height: 768px) and (max-width: 1024px) {
+body {
+	background-image: url('./bg-vert.jpg');
+}
+}
+/********** ExtraLong devices **********/
+@media (min-width: 1601px) {
+body {
+	background-image: url('./bg-1920-1080.jpg');
+}
+}
+/********** ShortButWide devices **********/
+@media (max-width: 1600px) and (max-height: 850px) {
+body {
+	background-image: url('./bg.jpg');
+}
+}
